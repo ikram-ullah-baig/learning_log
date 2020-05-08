@@ -58,7 +58,7 @@ ROOT_URLCONF = 'learning_log.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'learning_log/templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -127,6 +127,12 @@ STATIC_URL = '/static/'
 LOGOUT_REDIRECT_URL = '/'
 LOGIN_URL = '/users/login/'
 
+# security warning: don't run with debug turned on in production!
+
+DEBUG = True
+
+ALLOWED_HOSTS = ['localhost']
+
 #settings for django-bootstrap3
 BOOTSTRAP3 = {
     'include_jquery': True,
@@ -147,6 +153,8 @@ if os.getcwd() == '/app' or cwd[:4] == '/tmp':
     ALLOWED_HOSTS = ['learning_log523.herokuapp.com']
 
     DEBUG =False
+
+   
 
     # Static asset configuration
     BASE_DIR = os.path.dirname(os.path.abspath(__file__))
