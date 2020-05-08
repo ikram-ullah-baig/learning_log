@@ -25,7 +25,7 @@ SECRET_KEY = '0h74b8x&k$efm7do5sv5r3753xp8t+zpvgb3q4-lg^wz1lu*ys'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost']
 
 
 # Application definition
@@ -127,11 +127,7 @@ STATIC_URL = '/static/'
 LOGOUT_REDIRECT_URL = '/'
 LOGIN_URL = '/users/login/'
 
-# security warning: don't run with debug turned on in production!
 
-DEBUG = True
-
-ALLOWED_HOSTS = ['localhost']
 
 #settings for django-bootstrap3
 BOOTSTRAP3 = {
