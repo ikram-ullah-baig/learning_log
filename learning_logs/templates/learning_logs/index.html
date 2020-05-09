@@ -95,41 +95,287 @@
 		  <abbr title="Professor">Prof.</abbr> Shoaib Ali is a good friend of mine and I will recommend him the post of
 			 assistant professor at <acronym title="Sir Syed University of Engieering & Technology karachi">SSUET</acronym>
 			 as I thing he will be a great inclusion in the faculty of this <del>auspicious</del> <ins>prestigious</ins> institution.
-		In 1817 Baron von Drais invented a walking
-		machine that would help him get around the royal
-		gardens faster: two same-size in-line wheels, the
-		front one steerable, mounted in a frame ...In 1817 Baron von Drais invented a walking
-		machine that would help him get around the royal
-		gardens faster: two same-size in-line wheels, the
-		front one steerable, mounted in a frame ...In 1817 Baron von Drais invented a walking
-		machine that would help him get around the royal
-		gardens faster: two same-size in-line wheels, the
-		front one steerable,
-		mounted in a frame ...In 1817 Baron von Drais invented a walking
-		machine that would help him get around the royal
-		gardens faster: two same-size in-line wheels, the
-		front one steerable, mounted in a frame ...In 1817 Baron von Drais invented a walking
-		machine that would help him get around the royal
-		gardens faster: two same-size in-line wheels, the
-		front one steerable, mounted in a frame ...
-		In 1817 Baron von Drais invented a walking
-		machine that would help him get around the royal
-		gardens faster: two same-size in-line wheels, the
-		front one steerable, mounted in a frame ...
 		<br/>
-		<img id="img2" src="images/image.jpg" alt="an image showing an envelope with secret of success written on it" />
-		mounted in a frame ...In 1817 Baron von Drais invented a walking
-		machine that would help him get around the royal
-		gardens faster: two same-size in-line wheels, the
-		front one steerable, mounted in a frame ...In 1817 Baron von Drais invented a walking
-		machine that would help him get around the royal
-		gardens faster: two same-size in-line wheels, the
-		front one steerable, mounted in a frame ...
-		In 1817 Baron von Drais invented a walking
-		machine that would help him get around the royal
-		gardens faster: two same-size in-line wheels, the
-		front one steerable, mounted in a frame ...
-		
-		
-	  </p>  
+        <img id="img2" src="images/image.jpg" alt="an image showing an envelope with secret of success written on it" />
+        
+         <!---Tables--->
+
+	<h2>January Expenditures</h2>
+    <table class="janexpen">
+    <thead>
+    <tr>
+    <th class="even">Date</th>
+    <th class="even">Income</th>
+    <th class="even">Expenditure</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <th>1st January</th>
+    <td>250</td>
+    <td>36</td>
+    </tr>
+    <tr>
+    <th class="even">2nd January</th>
+    <td class="even">285</td>
+    <td class="even">48</td>
+    </tr>
+    <!-- additional rows as above -->
+    <tr>
+    <th>31st January</th>
+    <td>129</td>
+    <td>64</td>
+    </tr>
+    </tbody>
+    <tfoot>
+    <tr>
+    <td></td>
+    <td class="even"><b>7824</b></td>
+    <td class="even"><b>1241</b></td>
+    </tr>
+    </tfoot>
+    </table>
+
+        <!---forms--->
+    <form action ="https://www.example.com/login.php">
+        <p>Username:
+        <input type="text" name="username" size="15" maxlength"30"/>
+        </p>
+        <p>Password:
+        <input type="password" name="password" size="15" maxlength"30"/>
+        </p>
+    </form>
+
+        <!--Text area-->
+
+    <form action ="https://www.example.com/login.php">
+      <p>what do you think if this life?</p>
+        <textarea name="comments" cols="20" rows="4"> Please comment here.. </textarea>
+    </form>
+
+        <!--Radio button-->
+
+    <form action ="https://www.example.com/proflie.php">
+     <p>Please select your favourite genre:
+      <br />
+      <input type="radio" name="genre" value="rock" 
+       checked="checked"/> Rock
+      <input type="radio" name="genre" value="pop"/>
+       Pop
+      <input type="radio" name="genre" value="jazz"/>
+       Jazz
+     </p>
+    </form>
+
+        <!--Checkbox-->
+
+    <form action="http://www.example.com/profile.php">
+     <p>Please select your favorite travel Destinations:
+      <br />
+      <input type="checkbox" name="destination"
+        value="gulmit" checked="checked" /> Gulmit
+      <input type="checkbox" name="destination"
+        value="borith" /> Borith
+      <input type="checkbox" name="destination"
+        value="passu" /> Passu
+     </p>
+    </form>
+
+        <!--Dropping down list box-->
+
+    <form action="http://www.example.com/profile.php">
+        <p>What device do you listen to music on?</p>
+        <select name="devices">
+        <option value="ipod">iPod</option>
+        <option value="radio">Radio</option>
+        <option value="computer">Computer</option>
+        </select>
+    </form>
+
+        <!--Multiple select box-->
+
+    <form action="http://www.example.com/profile.php">
+        <p>Do you play any of the following instruments?
+        (You can select more than one option by holding
+        down control on a PC or command key on a Mac
+        while selecting different options.)</p>
+        <select name="instruments" size="3"
+        multiple="multiple">
+        <option value="guitar" selected="selected">
+        Guitar</option>
+        <option value="drums">Drums</option>
+        <option value="keyboard"
+        selected="selected">Keyboard</option>
+        <option value="bass">Bass</option>
+        </select>
+    </form>
+
+        <!.--File input box-->
+
+    <form action="http://www.example.com/uploads.php" method="post">
+      <p>Upload your song in mp3 format:</p>
+      <input type="file" name="user-song"/><br />
+      <input id="upload" type="submit" value="upload" />
+    </form>
+
+        <!--submit button-->
+
+    <form action="http://www.example.com/subscribe.php">
+        <p>Subscribe to our email list:</p>
+        <input type="text" name="email" />
+        <input type="submit" name="subscribe"
+        value="Subscribe" />
+    </form>
+
+        <!--image button-->
+
+    <form action="http://www.example.org/subscribe.php">
+        <p>Subscribe to our email list:</p>
+        <input type="text" name="email" />
+        <input type="image" src="images/subscribe.jpg"
+        width="100" height="20" />
+    </form>
+
+        <!--button with hidden content-->
+
+    <form action="http://www.example.com.php">
+         <button><img src="images/add.png" alt="add" width="10" height="10" /> Add</button>
+         <input typr+"hidden" name="bookmark" value+lyrics" />
+    </form>
+    <br/>
+    
+    <a class="button" id="add-to-basket">
+        Add to basket</a>
+        <a class="button" id="framing-options">
+        Framing options</a>
+<br/>
+
+        <!--Labelling form-->
+    <form action="example.php" method="post">
+    <div>
+    <label for="name" class="title">Name:</label>
+    <input type="text" id="name" name="name" />
+    </div>
+    <div>
+    <label for="email" class="title">Email:</label>
+    <input type="email" id="email" name="email" />
+    </div>
+    <div>
+    <span class="title">Gender:</span>
+    <input type="radio" name="gender" id="male"
+    value="M" />
+    <label for="male">Male</label>
+    <input type="radio" name="gender" id="female"
+    value="F" />
+    <label for="female">Female</label><br />
+    </div>
+    <div>
+    <input type="submit" value="Register"
+    id="submit" />
+    </div>
+    </form>
+     <hr />
+
+        <!--Grouping Form Elements-->
+        
+    <fieldset class="details">
+        <legend>
+        Your Details:
+        </legend>
+        <label>
+        Name:
+        <input type="text" name="name" size="30" maxlength="50">
+        </label>
+        <br />
+        <label>
+        Email:
+        <input type="email" name="email" size="30" maxlength="50">
+        </label>
+    </fieldset>
+    
+    
+    
+    <fieldset class="contact-details">
+     <legend>Contact details</legend>
+     <lable><img src="images/mail.png">Email:<br />
+     <input type="text" name="email" /></lable><br />
+     <lable><img src="images/mobile.png">Mobile: <br />
+     <input type="text" name="mobile" /></lable><br />
+     <lable><img src="images/telephone.png">Telephone: <br />
+     <input type="text" name="telephone" /></lable><br />
+    </fieldset>
+    
+    
+    
+    <fieldset class="review">
+        <legend>
+        Your Review:
+        </legend>
+        <p>
+        <label for="hear-about">
+        How did you hear about us?
+        </label>
+        <select name="referrer" id="hear-about">
+        <option value="google">Google</option>
+        <option value="friend">Friend</option>
+        <option value="advert">Advert</option>
+        <option value="other">Other</option>
+        </select>
+        </p>
+        <p>
+        Would you visit again?
+        <br />
+        <label>
+        <input type="radio" name="rating" value="yes" />
+        Yes
+        </label>
+        <label>
+        <input type="radio" name="rating" value="no" />
+        No
+        </label>
+        <label>
+        <input type="radio" name="rating" value="maybe" />
+        Maybe
+        </label>
+        </p>
+        <p>
+        <label for="comments">
+        Comments:
+        </label>
+        <br />
+        <textarea rows="4" cols="40" id="comments">
+        </textarea>
+        </p>
+        <label>
+        <input type="checkbox" name="subscribe" checked="checked" />
+        Sign me up for email updates
+        </label>
+        <br />
+        <input type="submit" value="Submit review" />
+    </fieldset>
+    </div>
+    </div>
+    
+    <br/>
+
+        <!--HTML5:Form validation-->
+    <div class="forms">
+    <form action="http://www.example.com/login/" method="post">
+        <label for="username">Username:</label>
+        <input type="text" name="username"
+        required="required" /></title><br />
+        <label for="password">Password:</label>
+        <input type="password" name="password"
+        required="required" />
+        <input type="submit" value="Submit" />
+    </form>
+
+        <!--Date input:HTML5-->
+
+    <form action="http://www.example.com/bookings/" method="post">
+     <lable for="username">Departure date:</lable>
+     <input type="date" name="depart" />
+     <input type="submit" value="Submit" />
+    </form>
+		 
 {% endblock content %}
